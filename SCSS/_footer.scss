@@ -1,0 +1,97 @@
+footer {
+    background-image: url("../images/colores.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-color: #d66ba0;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+
+
+  #footerId {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+  }
+
+  .email {
+    text-align: center;
+    color: white;
+  }
+  #redesSociales {
+    padding-bottom: 20px;
+    color: white;
+  }
+  p {
+    font-size: 30px;
+  }
+
+  #iframe {
+    text-align: center;
+    justify-content: center;
+  }
+  .email {
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-align: center;
+    color: white;
+  }
+  .izqFooter {
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+  }
+  .centroFooter {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+    text-align: center;
+    color: greenyellow !important;
+  }
+
+  .suscribirseEmail {
+    text-align: right;
+    color: white;
+        text-align: center;
+  }
+  #redesSociales {
+    padding-bottom: 20px;
+    color: white;
+  }
+.footer__logo{
+  background-color: $rosa-fuerte;
+  border-radius: 20px;
+  height: fit-content;
+  width: 150px;
+  display: flex; 
+  flex-direction: column;  
+  
+ 
+   
+
+  .footer__logo--over:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+    background-color: chartreuse;
+    align-items: flex-end; 
+  }
+}
+.footer__logo--over{
+  margin-top: 15px;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+}
+}
