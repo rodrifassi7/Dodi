@@ -26,73 +26,11 @@ footer {
       justify-content: space-around;
 }
 
-.email {
-  text-align: center;
-  color: white;
-}
-
-.izqFooter {
-  text-align: left;
-  color: white;
-}
-
-.centroFooter {
-  text-align: center;
-  color: white;
-}
-
-#redesSociales {
-  padding-bottom: 20px;
-  color: white;
-}
-
-p {
-  font-size: 30px;
-}
-
 #iframe {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.email {
-  width: auto;
-  height: auto;
-  text-align: center;
-  text-align: center;
-  color: white;
-}
-
-.izqFooter {
-  margin-top: 10px;
-  text-align: left;
-  color: white;
-}
-
-.centroFooter {
-  width: auto;
-  height: auto;
-  margin-top: 10px;
-  text-align: center;
-  text-align: center;
-  color: white;
-}
-
-.suscribirseEmail {
-  text-align: right;
-  color: white;
-}
-
-#redesSociales {
-  padding-bottom: 20px;
-  color: white;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
 }
 
 .categ {

@@ -1,114 +1,165 @@
-@media only screen and (max-width: 480px) {
-	body {
-		margin: 0px;
-		padding: 0px;
-}
-.footer__logo{
-  padding: 0px;
+ul {
   margin: 0px;
+  padding: 0px;
 }
-.footer__logo ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.icono__footer{
+  height: 50px;
+  width: 50px;
+  margin: 5px 5px 5px 5px ;
 }
+.footer-section {
+background: #151414;
+position: relative;
 }
-
-footer {
-    background-image: url("../images/colores.jpg") !important;
-    background-position: center;
-    background-repeat: no-repeat !important;
-    background-size: cover;
-    background-color: #d66ba0;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    overflow: hidden;
-    margin-top: 50px;
-  }
-
-
-  #footerId {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: stretch;
-    justify-content: space-around;
-  }
-
-  .email {
-    text-align: center;
-    color: white;
-  }
-  #redesSociales {
-    padding-bottom: 20px;
-    color: white;
-  }
-  p {
-    font-size: 30px;
-  }
-
-  #iframe {
-    text-align: center;
-    justify-content: center;
-  }
-  .email {
-    width: auto;
-    height: auto;
-    text-align: center;
-    text-align: center;
-    color: white;
-  }
-  .izqFooter {
-    margin-top: 10px;
-    text-align: left;
-    color: white;
-  }
-  .centroFooter {
-    width: auto;
-    height: auto;
-    margin-top: 10px;
-    text-align: center;
-    text-align: center;
-    color: white !important;
-  }
-
-  .suscribirseEmail {
-    text-align: right;
-    color: white;
-        text-align: center;
-  }
-  #redesSociales {
-    padding-bottom: 20px;
-    color: white;
-  }
-.footer__logo{
-  border-radius: 20px;
-  height: fit-content;
-  display: flex; 
-  flex-direction: column;  
+.footer-cta {
+border-bottom: 1px solid #373636;
 }
-
-
-
-.footer__logo--over:hover{
-    transform: scale(2);
-    transition: transform .5s ease;
-    background-color: chartreuse;
-    align-items: flex-end; 
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
 }
-
-.footer__logo--over{
-  margin-top: 15px;
-  list-style: none;
-  margin-bottom: 15px;
-
+.cta-text {
+padding-left: 15px;
+display: inline-block;
 }
-
-.footer__logo ul{
-  display: flex;
-  justify-content: space-around;
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
 }
-
-
-
-
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #ff5e14;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #ff5e14;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
