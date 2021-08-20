@@ -33,10 +33,7 @@ $rosa-fuerte: #af4d98;
 	align-content: flex-start;
 	width: fit-content;
 }
-.anchura{
-	margin-left: .5rem;
-	margin-right: .5rem;
-}
+
 .foto1 {
 	margin-left: $marg-izq;
 	margin-top: $marg-der;
@@ -403,7 +400,7 @@ h3 {
 	}
 	.container {
 		width: 100vw;
-		display: grid;
+		
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		gap: 20px 20px;

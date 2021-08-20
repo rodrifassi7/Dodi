@@ -1,0 +1,97 @@
+// <!------------------------------------Seccion Servicios------------------------------------>
+
+:root {
+	--background-gradient: linear-gradient(45deg, #2d3436, #636e72);
+}
+
+.body_servicios {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: var(--background-gradient);
+	background-attachment: fixed;
+}
+
+.container_servicios {
+	position: relative;
+	width: 1200px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.container_servicios .card_servicios {
+	position: relative;
+	width: 300px;
+	height: 420px;
+	background: #fff;
+	margin: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+}
+.container_servicios:hover .card_servicios {
+	filter: blur(3px);
+	transform: scale(0.9);
+	opacity: 0.5;
+}
+.container_servicios .card_servicios:hover {
+	filter: blur(0px);
+	transform: scale(1.1);
+	opacity: 1;
+}
+.container_servicios .card_servicios .circle {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	clip-path: circle(180px at center 0);
+	text-align: center;
+}
+.container_servicios .card_servicios .circle h2 {
+	color: #fff;
+	font-size: 4.5em;
+	padding: 30px 0;
+}
+.container_servicios .card_servicios .content_servicios {
+	position: absolute;
+	bottom: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.container_servicios .card_servicios .content_servicios p {
+	color: #666;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+.container_servicios .card_servicios .content_servicios a {
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.container_servicios .card_servicios:nth-child(1) .circle,
+.container_servicios .card_servicios:nth-child(1) .content_servicios a {
+	background: #00cec9;
+}
+
+.container_servicios .card_servicios:nth-child(2) .circle,
+.container_servicios .card_servicios:nth-child(2) .content_servicios a {
+	background: #ff7675;
+}
+
+.container_servicios .card_servicios:nth-child(3) .circle,
+.container_servicios .card_servicios:nth-child(3) .content_servicios a {
+	background: #a29bfe;
+}
+
+
+// <!------------------------------------ FIN Seccion Servicios------------------------------------>
