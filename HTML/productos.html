@@ -20,73 +20,132 @@
   <meta name="description" content="Seccion donde explicamos como hacer una compra y/o cualquier otra duda.">
   <meta name="keywords" content="3D, impresion, regalos, diseño, mates, floreros, soportes">
 </head>
-<nav class="tiendaLogin">
-  <div>
-    <a href="HTML/IniciarSesion.html"> Iniciar sesion</a>
-  </div>
-  <div>
-    <a href="paginaFuturaRegistrarse"> Registrarse</a>
-  </div>
-  <div>
-    <a href="paginaFuturaBusqueda">Busqueda</a>
-  </div>
-</nav>
 
 <body>
   <header>
-    <!------------------------------------Logo------------------------------------>
-    <a href="../index.html"> <img src="../images/LogoMarca.jpg.jpg" class="Tamaño" alt="LogoMarca"></a>
-    <!------------------------------------logo------------------------------------>
+		<!------------------------------------Logo------------------------------------>
+		<a href="../index.html"> <img src="../images/LogoMarca.jpg.jpg" class="Tamaño" alt="LogoMarca"></a>
+		<!------------------------------------logo------------------------------------>
 
 
-    <h1 class="h1">DODI</h1>
-    <br><br><br><br>
+		<h1 class="h1"><a class="btn-flip" data-back="3D" data-front="DODI"></a></h1>
+		<br><br><br><br>
 
 
-    <!------------------------------------prueba nueva navbar------------------------------------>
-    <nav class="navbar navbar-expand-lg  navbar-light background-color: #e3f2fd;">
-      <a class="navbar-brand" href="../index.html">HOME</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="compra.html">COMO COMPRAR</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="../HTML/productos.html" id="navbarScrollingDropdown" role="button"
-              data-toggle="dropdown" aria-expanded="false">
-              PRODUCTOS
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="../HTML/productos.html">MATES</a></li>
-              <li><a class="dropdown-item" href="../HTML/productos.html">SOPORTES</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="../HTML/productos.html">OFERTAS</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="envios.html">ENVIOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">CONTACTO</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control mr-2" type="search" placeholder="..." aria-label="Search">
-          <button class="btn btn-outline-success btn-outline-success--over" type="submit">Busqueda</button>
-        </form>
+		<!------------------------------------prueba nueva navbar------------------------------------>
+		<nav class="navbar navbar-expand-lg  navbar-light background-color: #e3f2fd;">
+			<a class="navbar-brand" href="../index.html">HOME</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+				aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="compra.html">COMO COMPRAR</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="productos.html">PRODUCTOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="envios.html">ENVIOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">CONTACTO</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control mr-2" type="search" placeholder="..." aria-label="Search">
+					<button class="btn btn-outline-success btn-outline-success--over"
+						type="submit">Busqueda</button>
+				</form>
+			</div>
+		</nav>
+	</header>
+
+
+
+
+
+
+
+
+
+  <div id=container_tituloCheto>
+    Nuestros 
+    <div id=flip>
+      <div><div>MATES</div></div>
+      <div><div>SOPORTES</div></div>
+      <div><div>PRODUCTOS</div></div>
+    </div>
+    Destacados!
+    </div>
+
+
+<!------------------------------------Fin titulo cheto------------------------------------>
+
+
+
+
+
+  <!------------------------------------Fotos ejemplos------------------------------------>
+  <section>
+
+
+
+    <div class="row row-cols-1 row-cols-md-2 no_padding">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="../images/cepillo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Porta-Cepillos</h5>
+            <p class="card-text">Soporte para cepillos de dientes con forma de diente 
+              </p>
+          </div>
+        </div>
       </div>
-    </nav>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="../images/maceta groot.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Maceta Groot</h5>
+            <p class="card-text">Maceta para suculentas del querido personaje Baby Groot</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="../images/funda ihpone.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Funda Iphone</h5>
+            <p class="card-text">Funda para Iphone hecha con material flexible y ultra duradero
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="../images/mooon lamp.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LAMPARAS</h5>
+            <p class="card-text">Lampara de luna con base de madera lista para conectar</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
-  </header>
+
+    <article id="novedades__fotos">
+
+    </article>
+  </section>
+
+  <!------------------------------------Fin foto ejemplos------------------------------------>
+
 
 
 
@@ -238,7 +297,7 @@
 
 
 
-
+ <!------------------------------------  FOOTER ------------------------------------>
 
   <footer class="footer-section">
     <div class="container">

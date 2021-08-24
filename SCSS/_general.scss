@@ -2,12 +2,15 @@ $efecto-over: (1,4);
 $marg-izq: 40px;
 $marg-der: 20px;
 $rosa-fuerte: #af4d98;
-
-
 * {
 	margin: 0px;
 	padding: 0px;
 }
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
 .contenedor__general{
 	max-width: 1200%;
 	overflow: hidden;
@@ -146,8 +149,8 @@ body {
 	background-color: #332F2E;
 }
 header {
-	background-color: $rosa-fuerte;
-	background-image: linear-gradient($rosa-fuerte, #d66ba0, #e5a9a9, #f4e4ba) !important ;
+	background-color: #373636 !important;
+	
 }
 #novedades__fotos {
 	display: flex;
@@ -489,57 +492,7 @@ h3 {
 		background-color: khaki;
 		width: fit-content;
 	}
-	.headerForm {
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-		background-color: $rosa-fuerte;
-		color: white;
-		padding: 14px 20px;
-		margin-top: 8px;
-		border: none;
-		border-radius: 4px;
-		margin-bottom: 20px;
-	}
-	.formContacto {
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	input[type=text] {
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		box-sizing: border-box;
-	}
-	select {
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		box-sizing: border-box;
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		box-sizing: border-box;
-	}
-	input[type=email] {
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		box-sizing: border-box;
-	}
+
 	.btn__todos{
 		width: 100%;
 		background-color: $rosa-fuerte;
@@ -554,15 +507,7 @@ h3 {
 			background-image: linear-gradient( to right, #E7484F, #E7484F 16.65%, #F68B1D 16.65%, #F68B1D 33.3%, #FCED00 33.3%, #FCED00 49.95%, #009E4F 49.95%, #009E4F 66.6%, #00AAC3 66.6%, #00AAC3 83.25%, #732982 83.25%, #732982 100%, #E7484F 100% );
 			color: black;
 		}
-
-
-
-      
-
-
-
-
-        
+       
 
 	}
 	@keyframes {
