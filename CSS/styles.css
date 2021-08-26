@@ -528,6 +528,10 @@ h3 {
     color: greenyellow;
     margin-left: 10px;
   }
+  .tiendaLogin #img__compra {
+    align-content: center;
+    margin-right: 320px !important;
+  }
   .selector-for-some-widget {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
