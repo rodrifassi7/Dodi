@@ -437,19 +437,10 @@ h3 {
 		border: solid purple;
 	}
 	.containerCompra {
-		display: grid;
-		grid-template-columns: 100%;
-		grid-template-rows: 1fr;
-		grid-auto-columns: 1fr;
-		gap: 0px 0px;
-		grid-auto-flow: row;
-		grid-template-areas: "derecha";
+		display: flex;
+		justify-content: space-between;
 	}
-	.derecha {
-		grid-area: derecha;
-		border-left: solid black;
-		background-color: #f4e4ba;
-	}
+	
 	
 	.ulCompra {
 		display: block;
@@ -465,8 +456,8 @@ h3 {
 		text-align: -webkit-match-parent;
 	}
 	.pCompra {
+		margin: 30px 30px 30px 30px;
 		padding-top: 30px;
-		margin-left: 30px;
 		font-size: 25px;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
