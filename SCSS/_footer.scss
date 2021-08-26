@@ -27,7 +27,14 @@ ul {
   height: 50px;
   width: 50px;
   margin: 5px 5px 5px 5px ;
+  &:hover {
+		
+		transform: scale(1.6);
+    transition: transform .5s ease;
+
+	}	
 }
+
 .footer-section {
 background: #151414;
 position: relative;
