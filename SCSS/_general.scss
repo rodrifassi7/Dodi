@@ -75,11 +75,12 @@ body {
 	margin: 0 1em;
 	overflow: hidden;
 	transition: transform .5s ease;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 	float: left;
 	border-radius: 150px;
 	margin-left: 20px;
+	margin-top: 20px;
 	&:hover {
 		
 		transform: scale(1.4);
